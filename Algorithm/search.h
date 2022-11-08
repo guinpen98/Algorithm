@@ -2,7 +2,7 @@
 #define ALGORITHM_SORT_H
 #include <vector>
 
-class Sort
+class Search
 {
 public:
 	static int BinarySearch(const std::vector<int>& vector,const int x);

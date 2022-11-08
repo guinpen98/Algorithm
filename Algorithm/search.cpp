@@ -1,7 +1,7 @@
-#include "sort.h"
+#include "search.h"
 #include <cmath>
 
-int Sort::BinarySearch(const std::vector<int>& vector, const int x)
+int Search::BinarySearch(const std::vector<int>& vector, const int x)
 {
 	int left = 0;
 	int right = (int)vector.size();
