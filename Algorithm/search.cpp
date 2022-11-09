@@ -16,7 +16,7 @@ int Search::BinarySearch(const std::vector<int>& vector, const int x){
 }
 
 std::vector<int> Search::IntervalScheduling(std::vector<std::pair<int, int>> schedules){
-	int t = -std::numeric_limits<int>::max();
+	int t = std::numeric_limits<int>::min();
 	std::vector<int> schedule_numbers;
 	for (int i = 0; i < (int)schedules.size(); ++i) schedule_numbers.push_back(i);
 	std::vector<int> selected_schedule_numbers;
