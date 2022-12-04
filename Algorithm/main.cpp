@@ -2,8 +2,7 @@
 #include <iostream>
 
 int main() {
-	int x;
-	std::cin >> x;
-	std::vector<int> a{5, 23, -12, 9, 43, 12, -71, -33, 55};
-	std::cout << Sort::BinarySearch(a, x) << std::endl;
+	std::vector<int> a{ 4, 5, 6, 1, 2, 3 };
+	a = Sort::MergeSort(a);
+	for(auto& b : a) std::cout << b << std::endl;
 }
