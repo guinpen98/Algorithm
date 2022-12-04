@@ -1,5 +1,5 @@
-#ifndef ALGORITHM_SORT_H
-#define ALGORITHM_SORT_H
+#ifndef ALGORITHM_SEARCH_H
+#define ALGORITHM_SEARCH_H
 #include <vector>
 #include <utility>
 
@@ -9,5 +9,5 @@ public:
 	static int BinarySearch(const std::vector<int>& vector,const int x);
 	static std::vector<int> IntervalScheduling(std::vector<std::pair<int,int>> Schedules);
 };
-#endif //!ALGORITHM_SORT_H
+#endif //!ALGORITHM_SEARCH_H
 
